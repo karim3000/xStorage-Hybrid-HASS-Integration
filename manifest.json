@@ -1,5 +1,5 @@
 {
-  "domain": "xstorage_hybrid",
+  "domain": "xStorage-Hybrid-HASS-Integration",
   "name": "Eaton xStorage Hybrid",
   "codeowners": ["@your_github_username"],
   "config_flow": true,

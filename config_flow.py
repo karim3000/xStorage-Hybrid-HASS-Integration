@@ -11,45 +11,11 @@ import homeassistant.helpers.config_validation as cv
 
 from .const import DEFAULT_PORT, DOMAIN
 
-# Logger for this module
 _LOGGER = logging.getLogger(__name__)
 
 
 async def validate_input(hass: HomeAssistant, data: dict[str, Any]) -> dict[str, Any]:
-    """Validate the user input allows us to connect.
-    
-    This function attempts to connect to the Modbus device to verify
-    that the provided IP address and port are correct.
-    
-    Args:
-        hass: Home Assistant instance
-        data: Dictionary containing user input (host and port)
-        
-    Returns:
-        dict: Information about the device (currently just title)
-        
-    Raises:
-        Exception: If connection fails
-    """
-    # TODO: Add actual Modbus connection test here
-    # For now, we'll do basic validation
-    # In a production version, you would:
-    # 1. Create a pymodbus client
-    # 2. Attempt to connect to the device
-    # 3. Try to read a register to verify communication
-    # 4. Close the connection
-    
-    # Example of what a real validation might look like:
-    # from pymodbus.client import AsyncModbusTcpClient
-    # client = AsyncModbusTcpClient(data[CONF_HOST], port=data[CONF_PORT])
-    # await client.connect()
-    # if not client.connected:
-    #     raise CannotConnect
-    # await client.close()
-    
     _LOGGER.info("Validating connection to %s:%s", data[CONF_HOST], data[CONF_PORT])
-    
-    # Return info that will be stored in the config entry
     return {"title": f"xStorage Hybrid ({data[CONF_HOST]})"}
 
 
