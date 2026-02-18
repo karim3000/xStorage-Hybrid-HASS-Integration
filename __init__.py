@@ -5,7 +5,7 @@ from homeassistant.core import HomeAssistant
 from .const import DOMAIN, REGISTER_LIST
 from .coordinator import ModbusCoordinator
 
-PLATFORMS: list[str] = ["sensor"]
+PLATFORMS: list[str] = ["sensor", "button", "number", "select"]
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     host = entry.data["host"]
