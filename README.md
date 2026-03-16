@@ -33,35 +33,6 @@ custom_components/xstorage_hybrid
 - Restart Home Assistant
 - Add the integration from Settings → Devices & Services
 
-🗂️ Repository Structure
-This project follows the required HACS structure:
-xStorage-Hybrid-HASS-Integration/
-
-│
-
-├── custom_components/
-
-│   └── xstorage_hybrid/
-
-│       ├── __init__.py
-
-│       ├── manifest.json
-
-│       ├── sensor.py
-
-│       ├── config_flow.py
-
-│       └── ...
-
-│
-
-├── hacs.json
-
-├── LICENSE
-
-└── README.md
-
-
 
 ⚙️ Configuration
 After installing, the integration will guide you through setup:
