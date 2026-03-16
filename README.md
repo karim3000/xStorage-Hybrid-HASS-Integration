@@ -36,17 +36,29 @@ custom_components/xstorage_hybrid
 🗂️ Repository Structure
 This project follows the required HACS structure:
 xStorage-Hybrid-HASS-Integration/
+
 │
+
 ├── custom_components/
+
 │   └── xstorage_hybrid/
+
 │       ├── __init__.py
+
 │       ├── manifest.json
+
 │       ├── sensor.py
+
 │       ├── config_flow.py
+
 │       └── ...
+
 │
+
 ├── hacs.json
+
 ├── LICENSE
+
 └── README.md
 
 
