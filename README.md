@@ -1,7 +1,7 @@
 # xStorage-Hybrid-HASS-Integration
 🚗🔋 xStorage Hybrid – Home Assistant Integration
 A custom Home Assistant integration for monitoring and interacting with Nissan xStorage Hybrid energy systems.
-This project brings real‑time visibility of your xStorage Hybrid battery, inverter, and energy flow directly into Home Assistant, enabling smarter automation and deeper insight into your home energy usage.
+This project brings real‑time visibility of your xStorage Hybrid battery, inverter, and energy flow directly into Home Assistant.
 
 🌟 Features
 - 📊 Live sensor data from your xStorage Hybrid system
@@ -53,23 +53,8 @@ xStorage-Hybrid-HASS-Integration/
 
 ⚙️ Configuration
 After installing, the integration will guide you through setup:
-- Enter your xStorage Hybrid system’s IP address
-- Choose polling interval (optional)
-- Sensors will automatically appear in Home Assistant
-
-🧪 Development Status
-This integration is actively evolving.
-Planned enhancements include:
-- 🔧 Write‑capable controls (if supported by the device)
-- 📈 Additional diagnostic sensors
-- 🛠 Improved error handling and discovery
-Contributions, bug reports, and feature requests are welcome.
-
-🤝 Contributing
-If you’d like to help:
-- Open an issue
-- Submit a pull request
-- Share logs or device behavior to improve compatibility
+- Enter your xStorage Hybrid system’s IP address and Modbus TCP port 
+- Sensors will automatically appear in the Home Assistant Dashboard
 
 📜 License
 This project is licensed under the MIT License.
