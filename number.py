@@ -34,7 +34,7 @@ class ModbusSliderNumber(CoordinatorEntity, NumberEntity):
         super().__init__(coordinator)
         self.hass = hass
         self._register = register
-        self._attr_name = f"Brightness {register}"
+        self._attr_name = f"Maximum charge (%)"
         self._attr_unique_id = f"{entry_id}_slider_{register}"
 
     @property
