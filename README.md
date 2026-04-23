@@ -41,10 +41,3 @@ After installing, the integration will guide you through setup:
 
 📜 License
 This project is licensed under the MIT License.
-
-If you want, I can also generate:
-- A logo for the integration
-- A more technical deep‑dive section
-- A troubleshooting section
-- A HACS badge set for the top of the README
-Just tell me the style you prefer.
